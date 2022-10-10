@@ -1,0 +1,64 @@
+.Footer-container{
+	position: relative;
+}
+
+.Footer-container>hr{
+	border: 1px  solid var(--lightgray)
+}
+
+.footer{
+	padding: 1rem 2rem;
+	display: flex;
+	flex-direction: column;
+	gap: 3rem;
+	align-items: center;
+	justify-content: center;
+	height: 18rem;
+}
+
+.social-links{
+	display: flex;
+	gap: 1.5rem;
+
+}
+
+.Repositorio{
+	display:flex;
+	gap: 0.5rem;
+}
+.Repositorio>img{
+
+	cursor:pointer;
+	width:9rem;
+	height: 5rem;
+}
+.social-links > img{
+
+	width: 3rem;
+	height: 3rem;
+	cursor: pointer;
+}
+
+.logo-f>img{
+	width: 18rem;
+}
+
+.blur-f{
+	bottom: 0;
+	right: 30%;
+	width: 26rem;
+	height: 30rem;
+	filter: blur(200px);
+	backgraound: orange;
+
+}
+
+.blur-g{
+	bottom: 0;
+	right: 15%;
+	width: 26rem;
+	height: 12rem;
+	filter: blur(200px);
+	backgraound: rgb(255, 115,0);
+
+}

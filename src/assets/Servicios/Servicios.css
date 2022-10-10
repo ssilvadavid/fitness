@@ -1,0 +1,85 @@
+.Servicios{
+	display: flex;
+	gap: 2rem;
+	padding: 0 2rem;
+}
+
+.left-t{
+	display: flex;
+	flex: 2 1;
+	gap: 3rem;
+	flex-direction: column;
+	color: white;
+}
+.left-t>:nth-child(1){
+	font-weight: bold;
+	font-size: 2.5rem;
+	
+}
+.left-t>:nth-child(4){
+
+	text-transform: none;
+	text-align: justify;
+	letter-spacing: 2px;
+	line-height: 40px;
+}
+
+.right-t{
+	
+	flex: 3.5;
+	position: relative;
+	width: 20rem;
+	height: 20rem;
+}
+
+.right-t>img{
+	position: absolute;
+	width: 17rem;
+	height: 20rem;
+	object-fit: cover;
+	right: 43rem;
+	top: -4rem;
+	
+}
+
+.right-t>:nth-child(1){
+
+	position: absolute;
+	width: 17rem;
+	height: 20rem;
+	border: 2px solid orange;
+	background-color: transparent;
+	right: 42.5rem;
+	top: -4.4rem;
+	
+	
+}
+
+.right-t>:nth-child(2){
+
+	position: absolute;
+	width: 17rem;
+	height: 20.5rem;
+	right: 43.5rem;
+	top: -4.25rem;
+	background: var(--planCard);
+	
+	
+}
+
+
+.arrows{
+	display: flex;
+	gap: 0.5rem;
+	position: absolute;
+	bottom: 0.5rem;
+	left: 1rem;
+	height: 1.5rem;
+	
+}
+
+.arrows>img{
+	width: 1.5rem;
+	cursor: pointer;
+}
+
